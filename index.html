@@ -475,9 +475,9 @@
 <!-- Pop-up -->
     <div class="backdrop is-open">
         <div class="modal">
-            <button type="button" class="modal-close-btn">
-                <svg class="modal-close-btn-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-krest"></use>
+            <button type="button" class="modal-close-button">
+                <svg class="modal-button-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <p class="modal-title section-title">Leave your contacts and we will call you back</p>
@@ -487,7 +487,7 @@
                     <div class="modal-input-wrap">
                         <input type="text" name="user-name" class="modal-input" id="user-name" required>
                         <svg class="modal-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-persontoform"></use>
+                            <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
                 </div>
@@ -496,7 +496,7 @@
                     <div class="modal-input-wrap">
                         <input type="text" name="phone" class="modal-input" id="phone" required>
                         <svg class="modal-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-phone-black"></use>
+                            <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
                 </div>
@@ -505,7 +505,7 @@
                     <div class="modal-input-wrap">
                         <input type="text" name="email" class="modal-input" id="email" required>
                         <svg class="modal-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-email-black"></use>
+                            <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </div>
@@ -515,17 +515,25 @@
                         class="modal-comment-text"></textarea>
                 </div>
     
-                <div class="modal-checkbox-field">
+                <!--div class="modal-checkbox-field">
                     <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
                         class="modal-checkbox-input visually-hidden">
                     <label for="user-privacy" class="modal-label"><span><svg class="modal-checkbox-icon" width="10"
                                 hight="8">
-                                <use href="./images/icons.svg#icon-Vectorpolicy"></use>
-                            </svg></span>I accept
-                        the
-                        terms and conditions of the <a href="">Privacy Policy</a></label>
+                                <use href="./images/Vector.policy.svg"></use>
+                            </svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                 </div>
-                <button type="submit" class="modal-btn">Send</button>
+                <button type="submit" class="modal-button">Send</button -->
+                
+                <div class="modal-checkbox">
+                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="input-checkbox visually-hidden" />
+                    <label for="user-privacy" class="label-checkbox">I accept the terms and conditions of the<span
+                            class="part-label-checkbox"><svg width="10" height="8" class="icon-checkbox">
+                                <use href="./images/modal.svg#icon-Checkbox"></use>
+                            </svg></span><a class="link-policy">Privacy Policy</a></label>
+                </div>
+                
+                <button class="button-last-one">Send</button>
             </form>
         </div>
     </div>

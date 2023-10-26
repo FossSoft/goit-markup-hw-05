@@ -785,25 +785,27 @@ address {
     margin-bottom: 16px;
 }
 
-.modal-form {
-    display: block;
-}
+.modal-form {}
 
 .modal-feild {
     margin-bottom: 8px;
 }
 
 .modal-label {
-    /* display: block; */
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
     display: block;
     margin-bottom: 4px;
+    /*margin-bottom: 4px;
     margin-top: 8px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
-    align-items: center;
+    align-items: center; */
 }
 
 .modal-input-wrap {

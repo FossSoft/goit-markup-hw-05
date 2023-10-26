@@ -866,7 +866,7 @@ address {
 }
     
 .modal-comment-text:focus {
-    border-color: #4d5ae5;
+    fill: #4D5AE5;
 }
 
 /* .modal-checkbox-field {

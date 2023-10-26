@@ -785,7 +785,9 @@ address {
     margin-bottom: 16px;
 }
 
-.modal-form {}
+.modal-form {
+    display: block;
+}
 
 .modal-feild {
     margin-bottom: 8px;
@@ -793,6 +795,7 @@ address {
 
 .modal-label {
     /* display: block; */
+    display: block;
     margin-bottom: 4px;
     margin-top: 8px;
     font-size: 12px;
@@ -805,7 +808,6 @@ address {
 
 .modal-input-wrap {
     position: relative;
-    display: block;
 }
 
 .modal-input {

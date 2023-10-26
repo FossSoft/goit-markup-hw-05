@@ -792,7 +792,7 @@ address {
 }
 
 .modal-label {
-    display: block;
+    /* display: block; */
     margin-bottom: 4px;
     margin-top: 8px;
     font-size: 12px;
@@ -805,6 +805,7 @@ address {
 
 .modal-input-wrap {
     position: relative;
+    display: block;
 }
 
 .modal-input {

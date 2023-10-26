@@ -650,6 +650,9 @@ address {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .form-footer {

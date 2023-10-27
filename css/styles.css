@@ -229,7 +229,7 @@ address {
        rgba(46, 47, 66, 0.7)),
        url(/images/people-office.jpg); */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+      rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -569,12 +569,12 @@ address {
 }
 
 .footer-text {
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    max-width: 254px;
+    max-width: 264px;
     /* margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.5;
@@ -808,7 +808,7 @@ address {
     width: 100%;
     height: 40px;
     padding-left: 38px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     outline: transparent;
@@ -897,6 +897,8 @@ address {
 .link-policy {
     color: #4d5ae5;
 }
+
+.icon-checkbox {}
 
 .button-last-one {
     display: block;
